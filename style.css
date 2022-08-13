@@ -28,6 +28,12 @@ body {
   font-size: 18px;
 }
 
+@media (max-width:375px) {
+  .mainbox {
+    width: 90%;
+  }
+}
+
 .top-box {
   height: 50%;
   position: relative;
