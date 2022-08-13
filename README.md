@@ -39,4 +39,4 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ## Author
 
 - Website - [J.Walczak](https://github.com/jwalczak94)
-- Frontend Mentor - [@jwalczak94](hhttps://www.frontendmentor.io/profile/jwalczak94)
+- Frontend Mentor - [@jwalczak94](https://www.frontendmentor.io/profile/jwalczak94)
