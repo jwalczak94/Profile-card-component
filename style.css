@@ -28,7 +28,7 @@ body {
   font-size: 18px;
 }
 
-@media (max-width:375px) {
+@media (orientation:portrait) {
   .mainbox {
     width: 90%;
   }
