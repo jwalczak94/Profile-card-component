@@ -10,15 +10,15 @@ body {
   font-family: 'Kumbh Sans', sans-serif;
   font-weight: 700;
   background-color: hsl(185, 75%, 39%);
-  background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+  background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+  background-position: top -40vh right 50vw, top 53vh left 55vw;
   background-repeat: no-repeat;
-  background-position: -50% 50%, 150% -50%;
 }
 
 .mainbox {
   border-radius: 15px;
   width: 350px;
-  height: 350px;
+  height: 375px;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -53,8 +53,12 @@ body {
   height: 25%;
 }
 
-p {
+h1 p {
   padding-top: 5px;
+}
+
+h1 {
+  font-size: 18px;
 }
 
 .location {
@@ -66,7 +70,7 @@ span {
 }
 
 .description {
-  font-size: 12px;
+  font-size: 10px;
   letter-spacing: 2px;
 }
 
@@ -76,7 +80,7 @@ span {
 }
 
 .last-box {
-  border-top: 1px solid hsl(0, 0%, 59%);
+  border-top: 1px solid hsla(0, 0%, 59%, 0.30);
   float: left;
   width: 100%;
   height: 25%;
