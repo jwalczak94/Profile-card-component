@@ -17,8 +17,8 @@ body {
 
 .mainbox {
   border-radius: 15px;
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -28,12 +28,6 @@ body {
   font-size: 18px;
 }
 
-@media (orientation:portrait) {
-  .mainbox {
-    width: 90%;
-  }
-}
-
 .top-box {
   height: 50%;
   position: relative;
@@ -41,7 +35,7 @@ body {
 
 .background {
   position: fixed;
-  height: 150px;
+  height: 125px;
   width: 100%;
   background-image: url(./images/bg-pattern-card.svg);
   border-radius: 15px 15px 0 0;
@@ -51,11 +45,11 @@ body {
 .victor {
   border: 5px solid white;
   border-radius: 50%;
-  margin-top: 100px;
+  margin-top: 75px;
 }
 
 .middle-box {
-  padding-top: 25px;
+  padding-top: 20px;
   height: 25%;
 }
 
