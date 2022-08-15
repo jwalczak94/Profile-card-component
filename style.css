@@ -16,7 +16,7 @@
 body {
   background-color: var(--DarkCyan);
   background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
-  background-position: top -40vh right 50vw, top 53vh left 55vw;
+  background-position: top -50vh right 50vw, top 50vh left 50vw;
   background-repeat: no-repeat;
   text-align: center;
   font-family: 'Kumbh Sans', sans-serif;
@@ -86,7 +86,6 @@ span {
   float: left;
   width: 100%;
   padding: 0 20px;
-  font-size: 19px;
 }
 
 .box {
