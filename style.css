@@ -6,36 +6,41 @@
   box-sizing: border-box;
 }
 
+:root {
+  --DarkCyan: hsl(185, 75%, 39%);
+  --VeryDarkDesaturatedBlue: hsl(229, 23%, 23%);
+  --DarkGrayishBlue: hsl(227, 10%, 46%);
+  --DarkGray: hsl(0, 0%, 59%);
+}
+
 body {
-  font-family: 'Kumbh Sans', sans-serif;
-  font-weight: 700;
-  background-color: hsl(185, 75%, 39%);
+  background-color: var(--DarkCyan);
   background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
   background-position: top -40vh right 50vw, top 53vh left 55vw;
   background-repeat: no-repeat;
+  text-align: center;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 700;
 }
 
 .mainbox {
-  border-radius: 15px;
-  width: 350px;
-  height: 375px;
   position: absolute;
+  width: 350px;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  border-radius: 15px;
   background-color: white;
-  text-align: center;
-  font-size: 18px;
+
 }
 
 .top-box {
-  height: 50%;
   position: relative;
 }
 
 .background {
   position: fixed;
-  height: 125px;
+  height: 140px;
   width: 100%;
   background-image: url(./images/bg-pattern-card.svg);
   border-radius: 15px 15px 0 0;
@@ -45,16 +50,11 @@ body {
 .victor {
   border: 5px solid white;
   border-radius: 50%;
-  margin-top: 75px;
+  margin-top: 25%;
 }
 
 .middle-box {
-  padding-top: 20px;
-  height: 25%;
-}
-
-h1 p {
-  padding-top: 5px;
+  padding-top: 15px;
 }
 
 h1 {
@@ -63,6 +63,7 @@ h1 {
 
 .location {
   font-size: 14px;
+  padding: 10px 0 20px;
 }
 
 span {
@@ -72,6 +73,7 @@ span {
 .description {
   font-size: 10px;
   letter-spacing: 2px;
+  padding-top: 5px;
 }
 
 .grey {
@@ -83,11 +85,12 @@ span {
   border-top: 1px solid hsla(0, 0%, 59%, 0.30);
   float: left;
   width: 100%;
-  height: 25%;
+  padding: 0 20px;
+  font-size: 19px;
 }
 
 .box {
   float: left;
   width: 33.33%;
-  padding-top: 25px;
+  padding: 25px 15px;
 }
